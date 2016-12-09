@@ -2,6 +2,7 @@ export {default as computeBounds} from './bounds/computeBounds'
 export {default as isObjectOutsideBounds} from './bounds/isObjectOutsideBounds'
 
 // camera
+export {default as camera} from './camera/camera'
 import * as orbitControls from './camera/controls/orbitControls'
 export {orbitControls}
 export {default as computeCameraToFitBounds} from './camera/effects/computeCameraToFitBounds'
@@ -15,10 +16,10 @@ export {default as bufferToPng} from './image/bufferToPng'
 export {getExtension, getNameAndExtension, isValidFile} from './file/fileUtils'
 
 // geometry
-export {default as centerGeometry} from './centerGeometry'
-export {default as computeNormalsFromUnindexedPositions} from './computeNormalsFromUnindexedPositions'
-export {default as doNormalsNeedComputing} from './doNormalsNeedComputing'
-export {default as svgStringAsGeometry} from './svgStringAsGeometry'
+export {default as centerGeometry} from './geometry/centerGeometry'
+export {default as computeNormalsFromUnindexedPositions} from './geometry/computeNormalsFromUnindexedPositions'
+export {default as doNormalsNeedComputing} from './geometry/doNormalsNeedComputing'
+export {default as svgStringAsGeometry} from './geometry/svgStringAsGeometry'
 
 // transforms
 export {default as offsetTransformsByBounds} from './transforms/offsetTransformsByBounds'
