@@ -9,7 +9,7 @@ export {default as computeCameraToFitBounds} from './camera/effects/computeCamer
 export {default as cameraOffsetToEntityBoundsCenter} from './camera/effects/cameraOffsetToEntityBoundsCenter'
 
 // image
-export {contextToBuffer, writeBufferToFile, writeContextToFile} from './image/imageUtils'
+export {contextToBuffer, writeBufferToFile, writeContextToFile} from './image/imgUtils'
 export {default as bufferToPng} from './image/bufferToPng'
 
 // file

@@ -50,24 +50,24 @@ Object.defineProperty(exports, 'cameraOffsetToEntityBoundsCenter', {
   }
 });
 
-var _imageUtils = require('./image/imageUtils');
+var _imgUtils = require('./image/imgUtils');
 
 Object.defineProperty(exports, 'contextToBuffer', {
   enumerable: true,
   get: function get() {
-    return _imageUtils.contextToBuffer;
+    return _imgUtils.contextToBuffer;
   }
 });
 Object.defineProperty(exports, 'writeBufferToFile', {
   enumerable: true,
   get: function get() {
-    return _imageUtils.writeBufferToFile;
+    return _imgUtils.writeBufferToFile;
   }
 });
 Object.defineProperty(exports, 'writeContextToFile', {
   enumerable: true,
   get: function get() {
-    return _imageUtils.writeContextToFile;
+    return _imgUtils.writeContextToFile;
   }
 });
 
